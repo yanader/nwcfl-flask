@@ -1,0 +1,22 @@
+body {
+    background-color: #DCDCDC;
+    font-size: 10pt;
+}
+
+table {
+    text-align: center;
+}
+
+h1 {
+    font-size: em1.4;
+}
+
+#pad {
+    width: 100%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+  }
+
+#jumbo {
+    background-color: #AFAFAF;
+}

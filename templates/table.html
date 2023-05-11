@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+  {% for league in data %}
+    {% for value in league.values()%}
+      {% for match in value %}
+        <tr>
+          <td>{{ match['home'] }}</td>
+          <td>{{ match['score'] }}</td>
+          <td>{{ match['away'] }}</td>
+        </tr>
+      {% endfor %}
+    {% endfor %}
+    <tr><td></td><td></td><td></td></tr>
+  {% endfor %}
+
+{% endblock %}
